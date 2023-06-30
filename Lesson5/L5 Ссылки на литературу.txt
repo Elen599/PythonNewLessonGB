@@ -1,8 +1,10 @@
-ПОЛЕЗНАЯ ЛИТЕРАТУРА
+ПОЛЕЗНАЯ ЛИТЕРАТУРА:
 
-https://habr.com/ru/articles/132554/
+https://habr.com/ru/articles/488112/   -  итераторы
 
-https://habr.com/ru/companies/domclick/articles/674194/ итератор
+https://habr.com/ru/articles/132554/   -  как работает yield
+
+https://habr.com/ru/companies/domclick/articles/674194/   -  написание своего итератора
 
 https://pavel-karateev.gitbook.io/intermediate-python/sintaksis/ternary_operators  - тернарный итератор
 
