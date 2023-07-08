@@ -6,8 +6,10 @@
 # Весь период (1 января 1 года - 31 декабря 9999 года) действует Григорианский календарь.
 # Проверку года на високосность вынести в отдельную защищённую функцию.
 
+from sys import argv
 def calendar(date: str):
     day, month, year = map(int, date.split('.'))
+    print(day, month, year)
     if 1 <= year <= 9999:
         if month in [1, 3, 5, 7, 8, 10, 12] and 1 <= day <= 31:
             return True
@@ -23,8 +25,12 @@ def calendar(date: str):
 def is_visokos_year(year):
     return year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 
+def calendar_terml():
+    date = argv[1]
+    print(calendar(date))
+
 if __name__ == '__main__':
-    print(calendar('12.12.2016'))
+    print(calendar('30.12.2018'))
     print(calendar('29.02.2016'))
 
 # Задача 8 (создана в файле: __init__.py)
